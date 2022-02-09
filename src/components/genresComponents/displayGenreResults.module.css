@@ -1,0 +1,24 @@
+.resultsContainer {
+  display: inline-block;
+  margin: 3%;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.resultsContainer:hover {
+  transform: scale(1.2);
+  background-color: rgb(53, 53, 53);
+  color: green;
+}
+.poster {
+  width: 7em;
+  position: relative;
+  top: 1em;
+}
+.title {
+  width: 10em;
+  position: relative;
+}
+.link {
+  color: white;
+}

@@ -1,0 +1,123 @@
+.mainContainer {
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+.starIcon {
+  width: 1em;
+}
+.awardIcon {
+  width: 1em;
+}
+
+.poster {
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+}
+.mediaContainer {
+  width: 100%;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.detailsTopBar {
+  display: block;
+  background-color: rgb(53, 53, 53);
+}
+.title {
+  display: inline-block;
+  position: relative;
+  font-size: 35px;
+  color: green;
+}
+.onlyActors {
+  color: green;
+}
+
+.rate {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.trailer {
+  display: inline-block;
+  width: 100%;
+  height: 28em;
+  /* background-color: bisque; */
+}
+
+.infoText {
+  font-size: 1.3em;
+}
+
+.section1 {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  margin-top: 5%;
+  font-family: sans-serif;
+}
+
+.section2 {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+}
+
+.plot {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin-top: 2%;
+  /* font-size: 1.1vw; */
+}
+
+.plotText {
+  position: relative;
+  margin-top: 2%;
+}
+
+.detailsContainer {
+  background-color: rgb(36, 36, 36);
+  position: relative;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.released {
+  position: relative;
+  width: 30%;
+  left: 60%;
+  background-color: rgb(87, 87, 87);
+  border-radius: 0.5em;
+  color: yellowgreen;
+}
+
+.timeIcon {
+  width: 1.2em;
+}
+
+.runtime {
+  color: yellow;
+}
+
+.awards {
+  color: gold;
+  width: 50%;
+  position: relative;
+  left: 50%;
+}
+
+.justRate {
+  color: yellowgreen;
+}

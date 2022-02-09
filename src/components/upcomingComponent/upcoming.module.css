@@ -1,0 +1,8 @@
+.upcomingContainer {
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+}
+
+.details {
+  display: inline-block;
+}

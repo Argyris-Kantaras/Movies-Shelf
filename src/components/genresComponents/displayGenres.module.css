@@ -1,0 +1,46 @@
+.genresContainer {
+  display: block;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  margin-top: 3%;
+  border-bottom: 3px ridge;
+}
+.genreBtn {
+  border-radius: 2em;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1%;
+  transition: 0.3s;
+}
+
+.genreBtn:hover {
+  background-color: grey;
+  color: yellowgreen;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.exitBtn {
+  position: relative;
+  left: 55%;
+  top: 2em;
+  text-align: center;
+  color: green;
+  font-weight: bolder;
+  font-size: 1.23vw;
+  transition: 0.3s;
+}
+.exitBtn:hover {
+  color: red;
+  background-color: gray;
+}
+
+.genreResultsContainer {
+  display: none;
+}
+
+.title {
+  color: green;
+}

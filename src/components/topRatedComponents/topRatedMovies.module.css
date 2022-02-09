@@ -1,0 +1,9 @@
+.allTopRatedMoviesContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  padding-bottom: 2%;
+}
+
+.title {
+  color: yellowgreen;
+}

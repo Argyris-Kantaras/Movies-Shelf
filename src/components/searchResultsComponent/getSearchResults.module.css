@@ -1,0 +1,51 @@
+.result:hover {
+  background-color: rgb(53, 53, 53);
+  border-radius: 2em;
+  cursor: pointer;
+  color: green;
+}
+.img {
+  width: 18vw;
+}
+
+.result {
+  position: relative;
+  width: 30%;
+  left: 35%;
+  padding-top: 2%;
+  transition: 0.5s;
+  /* transition: 1s; */
+}
+.allResultsContainer {
+  transition: 1s;
+}
+
+.exitBtn {
+  position: relative;
+  left: 30%;
+  top: 5em;
+  width: 2%;
+
+  color: green;
+  font-weight: bolder;
+  font-size: 1.23vw;
+  transition: 0.3s;
+}
+.exitBtn:hover {
+  color: red;
+  background-color: gray;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.prevBtn {
+  position: relative;
+  right: 10%;
+}
+.nextBtn {
+  position: relative;
+  left: 10%;
+}

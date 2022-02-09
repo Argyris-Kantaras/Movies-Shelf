@@ -1,0 +1,27 @@
+.topRatedContainer {
+  width: 10rem;
+  display: inline-block;
+  margin: 3.8%;
+  transition: 0.5s;
+}
+
+.topRatedContainer:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.rateText {
+  color: yellowgreen;
+}
+
+.title {
+  color: green;
+}
+
+.link {
+  color: white;
+}
+.img {
+  width: 9em;
+}

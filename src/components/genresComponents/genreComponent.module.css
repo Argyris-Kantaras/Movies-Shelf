@@ -1,0 +1,28 @@
+.genreContainer {
+  display: block;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  width: 80%;
+}
+
+.genres {
+  display: inline;
+  position: relative;
+  right: 25%;
+  width: 60%;
+  height: 10%;
+  margin: 0.5%;
+  padding: 1%;
+  border: ridge;
+  border-radius: 2em;
+  transition: 0.6s;
+}
+.genres:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+}

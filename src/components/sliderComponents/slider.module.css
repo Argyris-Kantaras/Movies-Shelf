@@ -1,0 +1,20 @@
+.slideImg {
+  width: 25%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.slideShow {
+  display: inline-block;
+  width: 100%;
+  /* background-color: gray; */
+  transition: 2s;
+}

@@ -1,0 +1,12 @@
+.bannerContainer {
+  width: 30%;
+  position: relative;
+  top: 2em;
+  left: 10%;
+  font-size: 1.5vw;
+  float: left;
+  background-image: linear-gradient(to top right, green 0%, yellowgreen 100%);
+  border-top-right-radius: 10em;
+  border-bottom-left-radius: 10em;
+  /* color: black; */
+}
