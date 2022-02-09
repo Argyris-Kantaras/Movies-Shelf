@@ -1,8 +1,6 @@
 .actorsMainContainer {
   position: relative;
   margin-top: 5%;
-  overflow: hidden;
-  white-space: nowrap;
 }
 .title {
   color: yellowgreen;

@@ -10,9 +10,9 @@
 }
 
 .title {
-  width: 50%;
+  width: 7%;
   font-family: cursive;
-  font-size: 1.6vw;
+  font-size: 1.2em;
   color: green;
 }
 .searchInp {
@@ -45,24 +45,31 @@
   border-top: 3px ridge;
 }
 .copyright {
-  font-size: 1.3vw;
+  font-size: 1em;
   color: green;
 }
 
 .mainLogo {
-  width: 3vw;
-  position: absolute;
-  right: 80%;
+  width: 4em;
+  /* position: absolute; */
+  /* right: 80%; */
 }
 
 .link {
   position: relative;
   left: 35%;
-  color: white;
+  color: green;
   text-decoration: none;
   font-size: 1vw;
+  background-color: rgb(34, 34, 34);
 }
 
 .link:hover {
-  color: green;
+  color: yellowgreen;
+}
+
+.logoTitle {
+  display: flex;
+  position: relative;
+  left: 15%;
 }

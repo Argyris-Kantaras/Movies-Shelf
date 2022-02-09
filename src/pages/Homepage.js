@@ -45,9 +45,11 @@ function Homepage() {
   return (
     <div className={styles.homeBody}>
       <header className={styles.header}>
-        <img className={styles.mainLogo} alt="logo" src={logo} />
-        <h1 className={styles.title}>Movies Shelf</h1>
-        <form onSubmit={getQuery}>
+        <div className={styles.logoTitle}>
+          <img className={styles.mainLogo} alt="logo" src={logo} />
+          <h1 className={styles.title}>Movies Shelf</h1>
+        </div>
+        <form className={styles.form} onSubmit={getQuery}>
           <input
             ref={searchRef}
             className={styles.searchInp}

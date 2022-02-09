@@ -1,10 +1,10 @@
 .topRatedContainer {
-  width: 11vw;
   display: inline-block;
   margin: 2%;
   transition: 0.5s;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1em;
+  /* width: 45%; */
 }
 
 .topRatedContainer:hover {
@@ -19,11 +19,15 @@
 
 .title {
   color: green;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin-right: -2em;
 }
 
 .link {
   color: white;
 }
 .img {
-  width: 9vw;
+  width: 10em;
 }
