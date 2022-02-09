@@ -99,7 +99,7 @@ function CurrentMovieDetails() {
         return <ErrorMessage err={error} />;
       }
     };
-    // getTrailerID(id);
+    getTrailerID(id);
   }, [id]);
 
   useEffect(() => {

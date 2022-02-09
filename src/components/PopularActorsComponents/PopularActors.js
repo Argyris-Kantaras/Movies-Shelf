@@ -61,7 +61,7 @@ function PopularActors() {
       });
       state.popularActors = [];
     };
-    // getPopularActorsId();
+    getPopularActorsId();
   }, [triggered]);
 
   return (
