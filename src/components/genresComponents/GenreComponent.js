@@ -15,7 +15,11 @@ function GenreComponent(props) {
   return (
     <div className={styles.genreContainer}>
       {allGenres.map((genre) => {
-        return <span className={styles.genres}>{genre}</span>;
+        return (
+          <span key={genre} className={styles.genres}>
+            {genre}
+          </span>
+        );
       })}
     </div>
   );

@@ -12,7 +12,7 @@ function ShowPopularActors(props) {
     <div>
       {actors.map((actor) => {
         return (
-          <div className={styles.actorsContainer}>
+          <div key={actor.id} className={styles.actorsContainer}>
             <h4>{actor.name}</h4>
             <img className={styles.img} alt="" src={actor.image} />
           </div>

@@ -123,7 +123,7 @@ function CurrentMovieDetails() {
         return <ErrorMessage err={error} />;
       }
     };
-    // getTrailer(videoID);
+    getTrailer(videoID);
   }, [videoID]);
   if (loading) {
     return (

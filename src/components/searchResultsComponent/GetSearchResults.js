@@ -9,6 +9,7 @@ function GetSearchResults(props) {
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
+  const [error, setError] = useState(false);
 
   const nextPage = function () {
     pageCount++;
@@ -24,6 +25,7 @@ function GetSearchResults(props) {
   };
 
   useEffect(() => {
+    setError(false);
     const getMovieID = async function (query, pageNum) {
       try {
         const res = await // fetch(
@@ -60,12 +62,22 @@ function GetSearchResults(props) {
         setLoading(false);
       } catch (error) {
         console.error(error);
+        setError(true);
       }
     };
     if (props.location !== "") {
       getMovieID(props.location, page);
     }
   }, [props.location, page]);
+
+  if (error) {
+    // setError(false);
+    return (
+      <div>
+        <h1>Movie not found</h1>
+      </div>
+    );
+  }
 
   if (loading) {
     return (
