@@ -88,15 +88,14 @@ function GetSearchResults(props) {
             to={`/current-movie/${movie.imdbID}`}
           >
             <div className={styles.result} id={movie.imdb_id}>
+              <h2 className={styles.title}>{movie.Title}</h2>
               <img
                 className={styles.img}
                 id={movie.imdbID}
                 src={movie.Poster}
               />
-              <div>
-                <h2>{movie.Title}</h2>
-                <p>{movie.Year}</p>
-              </div>
+
+              <p>{movie.Year}</p>
             </div>
           </Link>
         );
